@@ -14,14 +14,12 @@
     "@tailwindcss/vite": "^4.3.3",
     "framer-motion": "^14.0.0",
     "react": "^19.2.8",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.2.8",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/node": "^24.19.1",
     "@types/react": "^19.2.18",
-    "@types/react-anchor-link-smooth-scroll": "^1.0.5",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",

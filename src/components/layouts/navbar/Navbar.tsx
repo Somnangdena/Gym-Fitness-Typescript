@@ -5,7 +5,6 @@ import useMediaQuery from "@/hook/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { useState } from "react";
 import ActionButton from "@/components/shared/ActionButton";
-import { div } from "framer-motion/client";
 
 type Props = {
   isTopOfPage: boolean;
@@ -27,7 +26,7 @@ const Navbar = ({ isTopOfPage ,selectedPage, setSelectedPage }: Props) => {
             <img src={Logo} alt="logo" />
             {/* Right side*/}
             {isAboveMediumScreens ? (
-              <div className={`${flexBetween}w-full`}>
+              <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>
                   <Link
                     page="Home"
