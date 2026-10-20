@@ -1,9 +1,11 @@
 import Navbar from "@/components/layouts/navbar/Navbar";
 import { useEffect, useState } from "react";
-import { SelectedPage } from "./shared/types";
+import { SelectedPage } from "@/shared/types";
 import Home from "@/components/layouts/home/Home";
 import Benefits from "@/components/layouts/benefits/Benefits";
 import OurClasses from "@/components/layouts/ourclasses/OurClasses";
+import ContactUs from "@/components/layouts/contactus/ContactUs";
+import Footer from "@/components/layouts/footer/Footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -31,6 +33,8 @@ function App() {
       <Home setSelectedPage={setSelectedPage}/>
       <Benefits setSelectedPage={setSelectedPage}/>
       <OurClasses setSelectedPage={setSelectedPage}/>
+      <ContactUs setSelectedPage={setSelectedPage}/>
+      <Footer/>
     </div>
   );
 }
